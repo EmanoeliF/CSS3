@@ -1,0 +1,24 @@
+body {
+    background-color:#17181c;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.pulse{
+    background: none;
+    color: #ff760c;
+    border:2px solid;
+    margin: 50px 10px;
+    padding: 15px 40px;
+    transition: 0.25s;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+}
+.pulse:hover, .pulse:focus {
+   color: #fff;
+   border-color: #ef8f6e;
+   animation: pulsar 1s;
+}
+@keyframes pulsar {
+    0% {
+        box-shadow: 0 0 0 0 #ef8f6e;
+    }
+}
