@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            margin-top: 30px;
+            max-width: 50vw;
+        }
+        h2 {
+            font-family: 'Segoe UI';
+            color: #ff760c;
+        }
+        .block {
+            display: block;
+        }
+        .inline {
+            display: inline;
+        }
+        .inline-block {
+            display: inline-block;
+            width: 60px;
+        }
+        .contants {
+            display: contents;
+            background-color: #333;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .inline-flex {
+            display: inline-flex;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 70px);
+        }
+        .inline-grid {
+            display: inline-grid;
+            grid-template-columns: repeat(4, 70px);
+        }
+        .list-item {
+            display: list-item;
+        }
+        .table {
+            display: table;
+        }
+        .linha {
+            display: table-row;
+        }
+        .celula {
+            display: table-cell;
+        }
+        .cabecalho {
+            display: table-header-group;
+        }
+        .cabecalho .celula {
+            font-weight: bold;
+            text-align: center;
+        }
+        .none {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+           /* display: none;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Display: block</h2>
+        <div class="block">
+            Hcode
+        </div>
+        <span class="block">Hcode</span>
+        <span class="block">Hcode</span>
+        <span class="block">Hcode</span>
+    </div>
+    <div class="container">
+        <h2>Display: inline</h2>
+        <div class="inline">
+        </div>
+        <span class="inline">Hcode</span>
+        <span class="inline">Hcode</span>
+        <span class="inline">Hcode</span>
+    </div>
+    <div class="container">
+        <h2>Display: inline-block</h2>
+        <div class="inline-block">
+        </div>
+        <span class="inline-block">Hcode</span>
+        <span class="inline-block">Hcode</span>
+        <span class="inline-block">Hcode</span>
+    </div>
+    <div class="container">
+        <h2>Display: contents</h2>
+        <div class="contants">
+        </div>
+        <span class="contants">Hcode</span>
+        <span class="contants">Hcode</span>
+        <span class="contants">Hcode</span>
+    </div>
+    <div class="container">
+        <h2>Display: flex</h2>
+        <div class="flex">
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+        <div class="container">
+            <h2>Display: inline-flex</h2>
+            <div class="inline-flex">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+            </div>
+            <div class="container">
+                <h2>Display: grid</h2>
+                <div class="grid">
+                    <div>AC</div>
+                    <div>Ce</div>
+                    <div>%</div>
+                    <div>/</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>x</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>-</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>+</div>
+                    <div>0</div>
+                    <div>.</div>
+                    <div>,</div>
+                    <div>=</div>
+                </div>
+                <div class="grid">
+                    <div>AC</div>
+                    <div>Ce</div>
+                    <div>%</div>
+                    <div>/</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>x</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>-</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>+</div>
+                    <div>0</div>
+                    <div>.</div>
+                    <div>,</div>
+                    <div>=</div>
+                </div>
+            <div class="container">
+            <h2>Display: inline-grid</h2>
+            <div class="inline-grid">
+                <div>AC</div>
+                <div>Ce</div>
+                <div>%</div>
+                <div>/</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>x</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>-</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>+</div>
+                <div>0</div>
+                <div>.</div>
+                <div>,</div>
+                <div>=</div>
+                </div>
+            <div class="inline-grid">
+                <div>AC</div>
+                <div>Ce</div>
+                <div>%</div>
+                <div>/</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>x</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>-</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>+</div>
+                <div>0</div>
+                <div>.</div>
+                <div>,</div>
+                <div>=</div>
+            </div>
+        <div class="container">
+        <h2>Display:list-item</h2>
+        <div class="list-item">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        <div>
+            <span class="list-item">Intem A</span>
+            <span class="list-item">Intem B</span>
+            <span class="list-item">Intem C</span>
+        </div>
+        <div class="container">
+            <h2>Display: table</h2>
+            <div class="table">
+                <div class="cabecalho">
+                <div class="linha">
+                    <div class="celula">Nome</div>
+                    <div class="celula">E-mail</div>
+                    <div class="celula">Idade</div>                    
+            </div> 
+        </div>
+            <div class="linha">
+                <div class="celula">Emanoeli</div>
+                <div class="celula">emanoelifranca.ti@gmail.com</div>
+                <div class="celula">33</div>                    
+            </div> 
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Emanoeli</td>
+                        <td>emanoelifranca.ti@gmail.com</td>
+                        <td>33</td>
+                    </tr>
+                </tbody>
+            <tfoot>
+                <tr>
+                    <td>1 nome</td>
+                    <td>1 e-mail</td>
+                    <td>33</td>
+                </tr>
+            </tfoot>
+        </table>
+    <div class="container">
+        <h2>Display: none</h2>
+        <div class="none"></div>
+    </div>
+</body>
+</html>
