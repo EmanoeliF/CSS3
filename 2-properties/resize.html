@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>resize</title>
+<style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content {
+        width: 50vw;
+    }
+    .item {
+        resize: both;
+        overflow: auto;
+    }
+    p:nth-child(2) {
+        resize: inline;
+    }
+    textarea {
+        resize: none;
+    }
+</style>
+</head>
+<body>
+    <div class="content">
+        <p class="item"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, impedit. Vitae, libero, explicabo ad veniam inventore nobis itaque officia ducimus in eaque harum ut neque, quod quaerat autem aperiam consectetur? </p>
+        <p class="item"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt unde labore inventore aut ipsam voluptatum id deserunt obcaecati itaque, quas neque molestias nostrum nesciunt a maxime laudantium, nisi exercitationem?</p>
+    </div>
+    
+    <form>
+        <textarea></textarea>
+    </form>
+
+</body>
+</html>
