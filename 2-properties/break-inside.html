@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>break-inside</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 80vw;
+        }
+        .content {
+            column-width: 500px;
+            break-before: page;
+        }
+        .item {
+            break-inside: avoid;
+        }
+        h2 {
+            color: #f4760c;
+        }
+        figure {
+            margin: 0;
+        }
+        img {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="item">
+            <h2>Ferrari</h2>
+                <figure>
+                    <img src="/img/ferrari-1.webp" alt="Ferrari"><figcaption>A Ferrari é uma fabricante italiana de carros esportivos de luxo com sede em Maranello. Fundada por Enzo Ferrari em 1939 na divisão de corridas da Alfa Romeo com o nome Auto Avio Costruzioni, a empresa construiu seu primeiro carro em 1940.</figcaption>
+                </figure>
+        <div class="item">
+            <h2>Porsche</h2>
+                <figure>
+                    <img src="/img/Porsche.webp" alt="Porsche"><figcaption>Carros esportivos de alto desempenho e luxo, o nome Porsche é instantaneamente reconhecível em todo o mundo. Esta lendária marca alemã tem uma rica história e uma herança de engenharia excepcional.</figcaption>
+                </figure>
+        <div class="item">
+            <h2>Lamburghini</h2>
+            <figure>
+                <img src="/img/lamburghini.webp" alt="Lamburghini">
+                    <figcaption>A Lamborghini é uma marca de carros italiana, curiosamente surgiu de uma rixa entre o Ferruccio Lamborghini e a Ferrari</figcaption>
+            </figure>
+    </div>
+</body>
+</html>
