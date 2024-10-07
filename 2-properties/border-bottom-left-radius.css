@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    width: 500px;
+    height: 500px;
+    background-color: #ebc531;
+    border-color: #e1b12c;
+    border-width: 20px;
+    border-style: dashed;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card > div {
+    width: 200px;
+    height: 200px;
+    background-color: red;  
+    border-bottom-left-radius: inherit;          
+}

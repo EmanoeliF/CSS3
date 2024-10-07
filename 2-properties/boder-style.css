@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    border-style: dashed;
+    border-width: 10vw;
+    border-color: rgba(17, 0, 255, 0.5);
+    display: flex;
+    justify-content: center;
+}
+div {
+    border-color: red;
+    border-width: 50px;
+    border-style: inherit;
+    width: 200px;
+    height: 200px;
+}

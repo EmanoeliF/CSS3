@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    /*border-right-style: dashed;*/
+    border-right-style: ridge;
+    border-right-width: 20px;
+    border-right-color: rgba(255, 255, 0 , .5);       
+}

@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border: solid #fbc531;
+ border-image: url('../img/border-image-source.png') 100 / 30 / 35 round;
+}

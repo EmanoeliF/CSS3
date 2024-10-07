@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    border-bottom-style: double;
+   /* border-bottom-style: outset;*/
+    border-bottom-width: 30vw;
+    border-bottom-color: rgba(255, 255, 0 , .5);       
+}

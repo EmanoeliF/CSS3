@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    /*border-top-style: solid;*/
+    border-top-style: dotted;
+    border-top-width: 10px;
+    border-top-color: rgba(255, 255, 0 , .5);       
+}

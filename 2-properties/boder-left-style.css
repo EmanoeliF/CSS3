@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    border-left-style: groove;
+    border-left-width: 30vw;
+    border-left-color: rgba(17, 0, 255, 0.5);
+}

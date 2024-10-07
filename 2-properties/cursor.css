@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+body > div {
+    border: #CCC 3px solid;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body > div:hover {
+    border-color: #fdcb6e;
+    font-weight: bold;
+}
+div.cursor-default {
+    cursor: default;
+}
+div.cursor-pointer {
+    cursor: pointer;
+}
+div.cursor-alias {
+    cursor: alias;
+}
+div.cursor-all-scroll {
+    cursor: all-scroll;
+}
+div.cursor-auto {
+    cursor: auto;
+}
+div.cursor-cell {
+    cursor: cell;
+}
+div.cursor-col-resize {
+    cursor: col-resize;
+}
+div.cursor-context-menu {
+    cursor: context-menu;
+}
+div.cursor-copy {
+    cursor: copy;
+}
+div.cursor-crosshair {
+    cursor: crosshair;
+}
+div.cursor-e-resize {
+    cursor: e-resize;
+}
+div.cursor-ew-resize {
+    cursor: ew-resize;
+}
+div.cursor-nesw-resize {
+    cursor: nesw-resize;
+}
+div.cursor-nwse-resize {
+    cursor: nwse-resize;
+}
+div.cursor-s-resize {
+    cursor: s-resize;
+}
+div.cursor-w-resize {
+    cursor: w-resize;
+}
+div.cursor-n-resize {
+    cursor: n-resize;
+}
+div.cursor-ns-resize {
+    cursor: ns-resize;
+}
+div.cursor-se-resize {
+    cursor: se-resize;
+}
+div.cursor-ne-resize {
+    cursor: ne-resize;
+}
+div.cursor-nw-resize {
+    cursor: nw-resize;
+}
+div.cursor-sw-resize {
+    cursor: sw-resize;
+}
+div.cursor-grab {
+    cursor: grab;
+}
+div.cursor-grab:active {
+    cursor: grabbing;
+}
+div.cursor-grabbing {
+    cursor: grabbing;
+}
+div.cursor-help {
+    cursor: help;
+}
+div.cursor-move {
+    cursor: move;
+}
+div.cursor-no-drop {
+    cursor: no-drop;
+}
+div.cursor-none {
+    cursor: none;
+}
+div.cursor-not-allowed {
+    cursor: not-allowed;
+}
+div.cursor-progress {
+    cursor: progress;
+}
+div.cursor-row-resize {
+    cursor: row-resize;
+}
+div.cursor-text {
+    cursor: text;
+}
+div.cursor-vertical-text {
+    cursor: vertical-text;
+}
+div.cursor-wait {
+    cursor: wait;
+}
+div.cursor-zoom-in {
+    cursor: zoom-in;
+}
+div.cursor-zoom-out {
+    cursor: zoom-out;
+}
+div.cursor-url {
+    cursor: url("../img/hcode-cafe.svg"), pointer;
+}

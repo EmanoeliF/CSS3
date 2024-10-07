@@ -1,0 +1,6 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    border-left: orangered 30px double;           
+}       

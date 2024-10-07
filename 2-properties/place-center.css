@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.container {
+display: flex;
+width: 100vw;
+height: 100vh;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+place-content: center;
+}
+.container > div {
+width: 100px;
+height: 200px;
+background-color: brown;
+margin: 10px;
+}

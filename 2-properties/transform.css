@@ -1,0 +1,8 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/hcode.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-80deg) scale(.5);
+}

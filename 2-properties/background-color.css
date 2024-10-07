@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 30vw;
+    height: 30vh;
+    background-color: rgba(0,0,0,.5);
+}

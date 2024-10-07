@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    border-top-style: solid;
+    border-top-width: 10px;
+    background-color: gray;
+   /* border-top-color: #e1b12c;*/
+   border-top-color: transparent;
+}
+body:hover{
+    border-top-color: #e1b12c;
+}

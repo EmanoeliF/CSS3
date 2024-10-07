@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;            
+}
+table {
+    border: solid 1px #333;
+    width: 70vw;
+   /*  border-collapse: collapse;*/
+   border-collapse: separate;
+   border-spacing: 0px;
+}
+td, th {
+    border: solid 1px #333;
+}

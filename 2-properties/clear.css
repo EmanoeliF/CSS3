@@ -1,0 +1,12 @@
+#primeiro {
+    float: left;
+    width: 20%;
+    color: red;
+}
+#segundo {
+    float: left;
+    width: 20%;
+}
+#terceiro {
+    clear: left;
+}

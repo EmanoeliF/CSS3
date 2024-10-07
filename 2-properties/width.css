@@ -1,0 +1,60 @@
+body {
+    margin: 50px;
+    padding: 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fundo>div[class^=largura] {
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 2%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.largura-auto {
+    width: auto;
+    border-color: #00598daa;
+}
+
+.largura-vwvh {
+    width: 50vw;
+    border-color: #008d44aa;
+}
+
+.largura-percent {
+    width: 50%;
+    border-color: #eb6767aa;
+}
+
+.largura-pixel {
+    width: 350px;
+    border-color: #c82aaeaa;
+}
+
+.largura-fit {
+    width: fit-content;
+    border-color: #c2f10caa;
+}
+
+.largura-min {
+    width: min-content;
+    border-color: #2ac3c8aa;
+}
+
+.largura-max {
+    width: max-content;
+    border-color: #7c2ac8aa;
+}
+.largura-revert {
+    width: revert;
+    border-color: #c82a2aaa;
+}
+.largura-unset {
+    width: unset;
+    border-color: cornflowerblue;
+}

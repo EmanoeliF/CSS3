@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc561;
+    border: solid;
+    border-image-source: url("../img/border-image-source.png");
+    border-image-width: 50px;
+    border-image-slice: 100;
+    border-image-outset: 50px;
+    border-image-repeat: round;
+}

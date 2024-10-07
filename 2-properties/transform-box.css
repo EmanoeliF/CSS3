@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+svg {
+    margin: 10%;
+    border: #000 1px solid;
+}
+#caixa {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: girar 4s linear infinite;
+}
+@keyframes girar {
+    to {
+        transform: rotate(360deg);
+    }
+}
